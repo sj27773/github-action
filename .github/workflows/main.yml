@@ -7,5 +7,6 @@ jobs:
     runs-on: self-hosted
 
     steps:
+      - uses: actions/checkout@v3
       - name: Print greeting
         run: echo "🎉 Hello from GitHub Actions!"
